@@ -11,7 +11,6 @@
   align-items: center;
   height: 50px;
   padding: 0 16px;
-  font-size: 12px;
   gap: 36px;
 }
 
@@ -31,6 +30,23 @@ li {
   font-size: 10px;
   font-weight: 600;
   color: #20323e;
+}
+
+@media (min-width: 768px) {
+  .main-header {
+    height: 75px;
+    gap: 82px;
+    padding: 0 36px;
+  }
+  .logo-name {
+    font-size: 24px;
+  }
+  ul {
+    gap: 48px;
+  }
+  li {
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
