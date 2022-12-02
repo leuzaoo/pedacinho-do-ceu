@@ -35,6 +35,21 @@ li {
   color: variables.$blue-color;
 }
 
+h1 {
+  color: variables.$orange-color;
+  text-align: center;
+}
+
+.span-name {
+  color: variables.$blue-color;
+}
+
+.city-name {
+  color: variables.$orange-color;
+  font-weight: 600;
+  text-align: center;
+}
+
 @include tablet {
   .main-header {
     height: 75px;
@@ -55,17 +70,20 @@ li {
   }
 }
 
-h1 {
-  color: variables.$orange-color;
-  text-align: center;
-}
+@include desktop {
+  .main-header {
+    padding: 0 72px;
+  }
 
-.span-name {
-  color: variables.$blue-color;
-}
+  .logo-name {
+    font-size: 32px;
+  }
 
-.city-name {
-  color: variables.$orange-color;
-  font-weight: 600;
-  text-align: center;
+  ul {
+    gap: 72px;
+  }
+
+  li {
+    font-size: 20px;
+  }
 }
