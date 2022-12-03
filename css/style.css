@@ -32,4 +32,50 @@ li {
   color: #20323e;
 }
 
+h1 {
+  color: #ac8f53;
+  text-align: center;
+}
+
+.span-name {
+  color: #20323e;
+}
+
+.city-name {
+  color: #ac8f53;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .main-header {
+    height: 75px;
+    gap: 82px;
+    padding: 0 36px;
+  }
+  .logo-name {
+    font-size: 24p-x;
+  }
+  ul {
+    gap: 48px;
+  }
+  li {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1280px) {
+  .main-header {
+    padding: 0 72px;
+  }
+  .logo-name {
+    font-size: 32px;
+  }
+  ul {
+    gap: 72px;
+  }
+  li {
+    font-size: 20px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
