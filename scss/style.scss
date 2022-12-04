@@ -50,6 +50,18 @@ h1 {
   text-align: center;
 }
 
+.pool{
+  width: 100%;
+  padding: 0 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 300px;
+}
+
 @include tablet {
   .main-header {
     height: 75px;
@@ -67,10 +79,6 @@ h1 {
 
   li {
     font-size: 16px;
-  }
-
-  img {
-    width: 120px;
   }
 }
 
