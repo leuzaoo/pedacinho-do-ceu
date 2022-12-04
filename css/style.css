@@ -62,6 +62,9 @@ h1 {
   li {
     font-size: 16px;
   }
+  img {
+    width: 120px;
+  }
 }
 @media (min-width: 1280px) {
   .main-header {

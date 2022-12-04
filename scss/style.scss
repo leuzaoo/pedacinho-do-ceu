@@ -68,6 +68,10 @@ h1 {
   li {
     font-size: 16px;
   }
+
+  img {
+    width: 120px;
+  }
 }
 
 @include desktop {
