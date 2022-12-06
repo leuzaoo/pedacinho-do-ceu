@@ -13,8 +13,7 @@
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  padding: 0 16px;
-  gap: 36px;
+  padding: 0 8px;
 }
 
 .logo-name {
@@ -36,7 +35,7 @@ li {
 }
 
 h1 {
-  margin-top: 16px;
+  margin-top: 8px;
   color: variables.$orange-color;
   text-align: center;
   text-transform: uppercase;
@@ -49,17 +48,40 @@ h1 {
 }
 
 .pool {
-  width: 100%;
-  padding: 0 56px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+img {
+  width: 100%;
+}
+
+.image-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 20%;
+  padding: 0 32px;
+}
+
+.image-line {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 20px 20px;
+  margin-top: 12px;
+  gap: 12px;
+}
+
+.image-line img {
+  width: 120px;
+}
+
 .attractions {
   background-color: variables.$blue-color;
-  margin-top: 20px;
+  margin-top: 8px;
 }
 
 .place-title {
@@ -71,21 +93,6 @@ h1 {
   text-transform: uppercase;
   color: variables.$background-color;
   font-size: 12px;
-}
-
-img {
-  width: 300px;
-}
-
-.image-line {
-  display: flex;
-  padding: 0px 20px 20px 20px;
-  margin-top: 12px;
-  gap: 12px;
-}
-
-.image-line img {
-  width: 120px;
 }
 
 .attract-items {
@@ -105,6 +112,107 @@ img {
   font-size: 8px;
   line-height: 190%;
   text-transform: uppercase;
+}
+
+@include phone {
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 16px;
+    gap: 36px;
+  }
+
+  .logo-name {
+    font-size: 16px;
+    font-family: "pacifico";
+    color: variables.$orange-color;
+  }
+
+  .header-items {
+    display: flex;
+    gap: 12px;
+    color: variables.$blue-color;
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  h1 {
+    margin-top: 16px;
+    color: variables.$orange-color;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .span-name {
+    color: variables.$blue-color;
+    font-size: 16px;
+  }
+
+  .pool {
+    width: 100%;
+    padding: 0 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .attractions {
+    background-color: variables.$blue-color;
+    margin-top: 20px;
+  }
+
+  .place-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: variables.$background-color;
+    font-size: 12px;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  .image-line {
+    display: flex;
+    padding: 0px 20px 20px 20px;
+    margin-top: 12px;
+    gap: 12px;
+  }
+
+  .image-line img {
+    width: 120px;
+  }
+
+  .attract-items {
+    color: variables.$background-color;
+  }
+
+  .attract-title {
+    color: variables.$golden-color;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  .attract-list {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 8px;
+    line-height: 190%;
+    text-transform: uppercase;
+  }
 }
 
 @include tablet {
