@@ -79,7 +79,7 @@ img {
 
 .image-line {
   display: flex;
-  padding: 0 20px;
+  padding: 0px 20px 20px 20px;
   margin-top: 12px;
   gap: 12px;
 }
@@ -104,6 +104,7 @@ img {
   color: white;
   font-size: 8px;
   line-height: 190%;
+  text-transform: uppercase;
 }
 
 @include tablet {
