@@ -172,7 +172,6 @@ img {
   }
   .pool {
     width: 100%;
-    padding: 0 56px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,6 +180,8 @@ img {
   .attractions {
     background-color: #20323e;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
   }
   .place-title {
     display: flex;
@@ -193,7 +194,7 @@ img {
     font-size: 12px;
   }
   img {
-    width: 300px;
+    width: 100%;
   }
   .image-line {
     display: flex;
