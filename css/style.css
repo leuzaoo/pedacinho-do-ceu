@@ -54,8 +54,36 @@ h1 {
   align-items: center;
 }
 
+.attractions {
+  background-color: #20323e;
+  margin-top: 20px;
+}
+
+.place-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  width: 175px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
 img {
   width: 300px;
+}
+
+.image-line {
+  width: 290px;
+  padding-left: 20px;
+}
+
+.image-line img {
+  width: 120px;
+}
+
+.pool-pic {
+  margin-left: 8px;
 }
 
 @media (min-width: 768px) {
@@ -103,18 +131,16 @@ img {
   li {
     font-size: 20px;
   }
-}
-img {
-  width: 600px;
-}
-
-h1 {
-  font-size: 32px;
-  line-height: 200%;
-}
-
-.span-name {
-  font-size: 72px;
+  img {
+    width: 600px;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 200%;
+  }
+  .span-name {
+    font-size: 72px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

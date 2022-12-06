@@ -57,8 +57,36 @@ h1 {
   align-items: center;
 }
 
+.attractions {
+  background-color: variables.$blue-color;
+  margin-top: 20px;
+}
+
+.place-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: variables.$background-color;
+  font-size: 12px;
+  width: 175px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
 img {
   width: 300px;
+}
+
+.image-line {
+  width: 290px;
+  padding-left: 20px;
+}
+
+.image-line img {
+  width: 120px;
+}
+
+.pool-pic {
+  margin-left: 8px;
 }
 
 @include tablet {
@@ -117,17 +145,16 @@ img {
   li {
     font-size: 20px;
   }
-}
+  img {
+    width: 600px;
+  }
 
-img {
-  width: 600px;
-}
+  h1 {
+    font-size: 32px;
+    line-height: 200%;
+  }
 
-h1 {
-  font-size: 32px;
-  line-height: 200%;
-}
-
-.span-name {
-  font-size: 72px;
+  .span-name {
+    font-size: 72px;
+  }
 }
