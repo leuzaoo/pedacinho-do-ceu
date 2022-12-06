@@ -85,15 +85,30 @@ img {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding-top: 20px;
+  padding-top: 12px;
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
   font-size: 12px;
 }
 
+.place-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20%;
+  padding: 0 32px;
+}
+
+.local-with-text {
+  color: #CFB144;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
 .attract-items {
   color: #fff;
+  line-height: 100%;
 }
 
 .attract-title {
@@ -107,8 +122,17 @@ img {
   flex-direction: column;
   color: white;
   font-size: 8px;
+  padding-top: 4px;
+}
+
+.home-items {
+  font-size: 8px;
+  color: #fff;
+}
+
+.items-home-list {
+  padding-top: 4px;
   line-height: 190%;
-  text-transform: uppercase;
 }
 
 @media (min-width: 414px) {
