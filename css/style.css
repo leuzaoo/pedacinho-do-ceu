@@ -315,14 +315,49 @@ img {
     font-size: 20px;
   }
   img {
-    width: 600px;
+    width: 100%;
+    height: 85vh;
   }
   h1 {
     font-size: 32px;
     line-height: 200%;
+    margin: 36px 0px 36px 0px;
   }
   .span-name {
-    font-size: 72px;
+    font-size: 60px;
+  }
+  .place-title {
+    padding: 0;
+    font-size: 32px;
+    margin-top: 36px;
+  }
+  .first-img-group img {
+    width: 350px;
+    height: 450px;
+  }
+  .second-img-group img {
+    width: 350px;
+    height: 450px;
+  }
+  .attract-title {
+    font-size: 32px;
+  }
+  .local-with-text {
+    font-size: 32px;
+  }
+  .attract-items {
+    margin-top: 32px;
+  }
+  .attract-list {
+    font-size: 20px;
+    line-height: 175%;
+  }
+  .home-items {
+    margin-top: 32px;
+  }
+  .items-home-list {
+    font-size: 20px;
+    line-height: 175%;
   }
 }
 
