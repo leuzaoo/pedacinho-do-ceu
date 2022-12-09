@@ -213,12 +213,8 @@ img {
     font-size: 16px;
   }
   .attract-list {
-    display: flex;
-    flex-direction: column;
     color: white;
     font-size: 8px;
-    line-height: 190%;
-    text-transform: uppercase;
   }
 }
 @media (min-width: 768px) {
