@@ -111,7 +111,6 @@ img {
 
 .attract-items {
   color: variables.$background-color;
-  line-height: 100%;
 }
 
 .attract-title {
@@ -121,11 +120,12 @@ img {
 }
 
 .attract-list {
-  display: flex;
-  flex-direction: column;
-  color: white;
   font-size: 8px;
-  padding-top: 4px;
+  line-height: 175%;
+}
+
+.second-img-group img {
+  height: 160px;
 }
 
 .home-items {
@@ -134,8 +134,7 @@ img {
 }
 
 .items-home-list {
-  padding-top: 4px;
-  line-height: 190%;
+  line-height: 175%;
 }
 
 @include phone {
