@@ -233,20 +233,72 @@ img {
     font-size: 16px;
   }
   .pool {
-    padding: 0 72px;
-    gap: 25px;
-    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   img {
-    width: 450px;
+    width: 100%;
   }
   h1 {
-    font-size: 16px;
+    margin: 32px 0px 32px 0px;
+    font-size: 20px;
     line-height: 150%;
   }
   .span-name {
     margin: 20px 0;
-    font-size: 24px;
+    font-size: 28px;
+  }
+  .image-line {
+    margin-top: 32px;
+  }
+  .place-title {
+    font-size: 20px;
+    padding-top: 32px;
+  }
+  .attractions {
+    margin: 0px;
+  }
+  .attract-title {
+    font-size: 20px;
+  }
+  .attract-items {
+    margin-top: 16px;
+  }
+  .attract-list {
+    font-size: 12px;
+    line-height: 200%;
+  }
+  .home-items {
+    margin-top: 16px;
+  }
+  .local-with-text {
+    font-size: 20px;
+  }
+  .items-home-list {
+    font-size: 12px;
+    line-height: 200%;
+  }
+  .first-img-group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .first-img-group img {
+    width: 230px;
+    height: 310px;
+  }
+  .second-img-group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .second-img-group img {
+    width: 230px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 }
 @media (min-width: 1280px) {
