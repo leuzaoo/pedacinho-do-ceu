@@ -28,10 +28,17 @@
   color: variables.$blue-color;
   font-size: 10px;
   font-weight: 600;
+  list-style: none;
 }
 
-li {
+.header-items a {
+  text-decoration: none;
+  color: variables.$black-color;
+}
+
+.nav-link a {
   list-style: none;
+  text-decoration: none;
 }
 
 h1 {
@@ -372,9 +379,9 @@ img {
     font-size: 60px;
   }
 
-.image-img{
-  padding-bottom: 32px;
-}
+  .image-img {
+    padding-bottom: 32px;
+  }
 
   .place-title {
     padding: 0;
@@ -417,6 +424,4 @@ img {
     font-size: 20px;
     line-height: 175%;
   }
-
-
 }

@@ -25,10 +25,17 @@
   color: #20323e;
   font-size: 10px;
   font-weight: 600;
+  list-style: none;
 }
 
-li {
+.header-items a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+.nav-link a {
   list-style: none;
+  text-decoration: none;
 }
 
 h1 {
@@ -101,7 +108,7 @@ img {
 }
 
 .local-with-text {
-  color: #CFB144;
+  color: #cfb144;
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -111,7 +118,7 @@ img {
 }
 
 .attract-title {
-  color: #CFB144;
+  color: #cfb144;
   text-transform: uppercase;
   font-size: 16px;
 }
@@ -208,7 +215,7 @@ img {
     color: #fff;
   }
   .attract-title {
-    color: #CFB144;
+    color: #cfb144;
     text-transform: uppercase;
     font-size: 16px;
   }
