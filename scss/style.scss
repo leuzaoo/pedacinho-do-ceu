@@ -233,6 +233,25 @@ img {
     color: white;
     font-size: 8px;
   }
+
+  .carousel {
+    overflow: hidden;
+    height: 500px;
+    width: 414px;
+  }
+
+  .container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+  }
+
+  #img{
+    object-fit: cover;
+    height: 500px;
+    width: 414px;
+  }
+
 }
 
 @include tablet {
@@ -372,9 +391,9 @@ img {
     font-size: 60px;
   }
 
-.image-img{
-  padding-bottom: 32px;
-}
+  .image-img {
+    padding-bottom: 32px;
+  }
 
   .place-title {
     padding: 0;
@@ -417,6 +436,4 @@ img {
     font-size: 20px;
     line-height: 175%;
   }
-
-
 }
