@@ -192,6 +192,9 @@ img {
     padding: 0 16px;
     gap: 36px;
   }
+  .nav-item {
+    margin: 12px 0px;
+  }
   .logo-name {
     font-size: 16px;
     font-family: "pacifico";
@@ -199,7 +202,8 @@ img {
   }
   .header-items {
     display: flex;
-    gap: 12px;
+    flex-direction: column;
+    gap: 0px;
     color: #20323e;
     font-size: 10px;
     font-weight: 600;
@@ -272,11 +276,16 @@ img {
     gap: 82px;
     padding: 0 36px;
   }
+  .header-items {
+    display: flex;
+    flex-direction: row;
+    position: inherit;
+  }
+  .hamburger {
+    display: none;
+  }
   .logo-name {
     font-size: 24px;
-  }
-  .header-items {
-    gap: 48px;
   }
   li {
     font-size: 16px;
