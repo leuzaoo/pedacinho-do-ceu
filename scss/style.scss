@@ -246,12 +246,11 @@ img {
     transform: translateX(0);
   }
 
-  #img{
+  #img {
     object-fit: cover;
     height: 500px;
     width: 414px;
   }
-
 }
 
 @include tablet {
