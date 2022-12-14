@@ -17,25 +17,67 @@
   font-size: 16px;
   font-family: "pacifico";
   color: #ac8f53;
+  text-align: center;
+  width: 100%;
 }
 
 .header-items {
-  display: flex;
-  gap: 12px;
+  position: fixed;
+  width: 30%;
+  right: -100%;
+  top: 50px;
+  gap: 0;
+  background-color: #fff;
   color: #20323e;
+  text-align: right;
   font-size: 10px;
   font-weight: 600;
   list-style: none;
+  transition: 0.3s;
+}
+
+.nav-item {
+  margin: 16px 0;
+}
+
+.header-items.active {
+  right: -2px;
 }
 
 .header-items a {
   text-decoration: none;
   color: #2e2e2e;
+  padding: 0 12px;
 }
 
 .nav-link a {
   list-style: none;
-  text-decoration: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #2e2e2e;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.hamburger {
+  cursor: pointer;
 }
 
 h1 {
